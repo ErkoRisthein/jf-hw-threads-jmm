@@ -16,7 +16,7 @@ mvnw clean install
 ```
 
 Run the jcstress test, change the pattern given as the *-t* argument to specify which tests to execute.
-The command below will execute all tests that start with JFHW7.
+The command below will execute all tests that start with JFHW6.
 ```
 java -Xbootclasspath/a:./ext-lib/jcstress-core.jar:./ext-lib/jopt-simple.jar:./target/homework6-0.0.1-SNAPSHOT.jar org.openjdk.jcstress.Main -t=".*JFHW6"
 ```
